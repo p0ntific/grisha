@@ -18,7 +18,7 @@ export default function Projects({
     isOtherProjects,
     workCases,
 }: ProjectsProps) {
-    const [activeTab, setActiveTab] = useState<"personal" | "work">("personal");
+    const [activeTab, setActiveTab] = useState<"personal" | "work">("work");
 
     const currentCases = activeTab === "personal" ? personalCases : workCases;
 
@@ -32,32 +32,12 @@ export default function Projects({
 
                     <div className="flex gap-4 md:gap-6 relative">
                         <button
-                            onClick={() => setActiveTab("personal")}
-                            className={cn(
-                                "flex items-center gap-2 py-2 transition-colors relative z-10",
-                                activeTab === "personal"
-                                    ? "text-heading font-medium"
-                                    : "text-base-text/40 hover:text-base-text/80"
-                            )}
-                        >
-                            <User
-                                className={cn(
-                                    "w-4 h-4",
-                                    activeTab === "personal"
-                                        ? "text-[#2CAEFF]"
-                                        : "text-base-text/40"
-                                )}
-                            />
-                            <span className="text-sm md:text-base">Личные</span>
-                        </button>
-
-                        <button
                             onClick={() => setActiveTab("work")}
                             className={cn(
                                 "flex items-center gap-2 py-2 transition-colors relative z-10",
                                 activeTab === "work"
                                     ? "text-heading font-medium"
-                                    : "text-base-text/40 hover:text-base-text/80"
+                                    : "text-base-text/40 hover:text-base-text/80",
                             )}
                         >
                             <Briefcase
@@ -65,12 +45,31 @@ export default function Projects({
                                     "w-4 h-4",
                                     activeTab === "work"
                                         ? "text-[#2CAEFF]"
-                                        : "text-base-text/40"
+                                        : "text-base-text/40",
                                 )}
                             />
                             <span className="text-sm md:text-base">
                                 Рабочие
                             </span>
+                        </button>
+                        <button
+                            onClick={() => setActiveTab("personal")}
+                            className={cn(
+                                "flex items-center gap-2 py-2 transition-colors relative z-10",
+                                activeTab === "personal"
+                                    ? "text-heading font-medium"
+                                    : "text-base-text/40 hover:text-base-text/80",
+                            )}
+                        >
+                            <User
+                                className={cn(
+                                    "w-4 h-4",
+                                    activeTab === "personal"
+                                        ? "text-[#2CAEFF]"
+                                        : "text-base-text/40",
+                                )}
+                            />
+                            <span className="text-sm md:text-base">Личные</span>
                         </button>
 
                         <motion.div
@@ -85,9 +84,9 @@ export default function Projects({
                             style={{
                                 width: "calc(50% - 8px)",
                                 left:
-                                    activeTab === "personal"
+                                    activeTab === "work"
                                         ? "0px"
-                                        : "calc(50% + 4px)",
+                                        : "calc(50% + 16px)",
                             }}
                         />
                     </div>
