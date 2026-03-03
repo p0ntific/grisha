@@ -1,14 +1,14 @@
 ---
 title: "2 место с ассистент по работе с документами на Finhack2025 от Райффайзен банка"
 description: "Логика, состояния, ui за 20 часов"
-image: "/images/cases/site.png"
+image: "/images/cases/skrepka.png"
 tags: ["AI", "Product", "Web"]
 date: "2025"
 ---
 
 # Финальное решения для Finhack
 
-image: "/images/cases/site.png"
+image: "/images/cases/skrepka.png"
 
 - Участвовал в ресерче
 - Помогал с продуктовыми гипотезами, основными сценариями, флоу

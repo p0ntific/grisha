@@ -1,14 +1,14 @@
 ---
 title: "MVP для сервиса голосового общения"
 description: "Продуктовый дизайн аналога дискорд"
-image: "/images/cases/hecsvoice.png"
+image: "/images/cases/HecsVoice.png"
 tags: ["Web", "Product"]
 date: "2024"
 ---
 
 # От кастдева до мвп за 2 недели
 
-image: "/images/cases/site.png"
+image: "/images/cases/HecsVoice.png"
 
 ## Было сделано:
 

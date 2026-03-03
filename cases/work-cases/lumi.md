@@ -1,14 +1,14 @@
 ---
 title: "B2C Telegram mini app для подбора косметики"
 description: "Пришел во время хаоса и отдал дизайн через 2 месяца"
-image: "/images/cases/site.png"
+image: "/images/cases/lumi.png"
 tags: ["Mobile", "Product"]
 date: "2025"
 ---
 
 # Lumi - ai косметолог
 
-image: "/images/cases/site.png"
+image: "/images/cases/lumi.png"
 
 ## Было сделано:
 

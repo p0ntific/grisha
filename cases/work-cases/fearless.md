@@ -1,14 +1,14 @@
 ---
 title: "Магазин мерча корейской поп культуры"
 description: "Первый веб-проект, который растопил сердца пользователей"
-image: "/images/cases/site.png"
+image: "/images/cases/01.png"
 tags: ["Website", "Ecom"]
 date: "2023"
 ---
 
 # Согрел душу пользователей и свою
 
-image: "/images/cases/site.png"
+image: "/images/cases/01.png"
 
 ## Как все начиналось
 
